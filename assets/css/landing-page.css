@@ -1694,8 +1694,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 }
 
+
+@media (max-width: 500px){
+  .desktop{
+    display: none!important;
+  }
+}
+
 @media (min-width: 768px){
     .landing-page .navbar-top{
         padding-top: 10px;
     }
+ 
 }
